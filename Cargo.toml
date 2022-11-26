@@ -11,6 +11,7 @@ repository = "https://github.com/u007d/category_theory"
 version = "0.1.0"
 
 [dependencies]
+bool_ext = "0.5.3"
 he_std = { git = "ssh://github/u007d/he_std.git", branch = "main" }
 thiserror = "1.0.37"
 

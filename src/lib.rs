@@ -28,7 +28,13 @@
 // #![warn(clippy::cargo, clippy::restriction, missing_docs, warnings)]
 // #![allow(clippy::implicit_return)]
 
+mod compose;
 mod error;
+mod identity;
 mod shared_consts;
 
-pub use error::{Error, Result};
+pub use {
+    compose::compose,
+    error::{Error, Result},
+    identity::identity,
+};

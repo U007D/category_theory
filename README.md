@@ -1,4 +1,10 @@
 # category_theory
+Exercises from Bartosz Milewski's
+[Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/),
+implemented in Rust.
+
+Inspired by Kurt Lawrence's [blog post](https://www.kurtlawrence.info/blog/category-theory-with-rust-pt1).
+Thank you, Bartosz and Kurt--this is fascinating stuff! :)
 
 ## License
 Licensed under either:
